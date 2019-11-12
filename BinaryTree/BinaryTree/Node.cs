@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace BinaryTree
 {
-    class Node
+    public class Node
     {
-        int data;
-        Node left;
-        Node right;
+        public int data;
+        public Node leftChild;
+        public Node rightChild;
 
-        public Node(int data)
+        public Node(int Data)
         {
-            this.data = data;
+            data = Data;
         }
 
     }
